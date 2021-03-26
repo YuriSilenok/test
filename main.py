@@ -1,10 +1,10 @@
 class Calc:
 
 	def __init__(self):
-		pass
+		self.array = []
 
 	def add(self, arg):
-		pass
+		self.array.applay(arg)
 		
 	def addition(self):
 		pass
