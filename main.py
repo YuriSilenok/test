@@ -12,3 +12,9 @@ class Calc:
 		for item in self.array:
 			result += item
 		return result
+		
+	def composition(self):
+		result = 0
+		for item in self.array:
+			result *= item
+		return result
