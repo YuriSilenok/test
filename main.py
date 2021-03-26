@@ -7,4 +7,7 @@ class Calc:
 		pass
 		
 	def addition(self):
-		pass
+		result = 0
+		for item in self.array:
+			result += item
+		return result
